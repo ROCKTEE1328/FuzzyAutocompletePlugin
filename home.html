@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get started</title>
+
+    <style>
+        section{
+            display: flex;
+            font-family:'Times New Roman', Times, serif;
+            height: fit-content;
+        }
+        
+        .div-1{
+            background-color: #050556;
+            width: 30%;
+        }
+
+        .div-2{
+            background-color: white;
+            width: fit-content;
+        }
+
+        .img-1{
+            padding: 60px;
+        }
+
+        form{
+            display: flex; 
+            flex-direction: row;
+           
+        }
+
+        .form2{
+            display: list-item;
+            margin: 25px;
+        }
+
+        button{
+            margin-left: 500px;
+            margin-bottom: 10px;
+            background-color: rgb(235, 112, 112);
+            border-style: hidden;
+            border-radius: 10px;
+            width: 70px;
+            height: 40px;
+            color: whitesmoke;
+        }
+
+       
+
+       
+    </style>
+       
+</head>
+<body>
+    <section>
+        <div class="div-1">
+            <img src="image/Get started.png" alt="" class="img-1">
+        </div>
+        <div style="background-color: white; display: flex; flex-direction: column; width: 100%; height: auto;">
+            <div>
+                <img
+                align="right"
+                style="text-align: end; width: 40%;"
+                src="image/profile.png" alt="">
+            </div>
+            <div style="height: 50px; width: fit-content; margin: 25px; padding: 10px; gap: 10px;">
+                <h1 style="font-size: xx-large;">Create profile</h1>
+            </div>
+            <div style="background-color: rgb(234, 200, 200); border-radius: 8px; height: auto; width: 90%; margin-left: 5%;">
+                <form action="">
+                    <p style="margin: 50px;">
+                        <label for="fname">First name</label><br>
+                        <input type="text" id="fname" name="fname" value="" style="border-radius: 10px; border-style: hidden; height: 30px;">
+                    </p>
+
+                    <p style="margin: 50px;">
+                        <label for="fname">Last name</label><br>
+                        <input type="text" id="fname" name="fname" value="" style="border-radius: 10px; border-style: hidden; height: 30px;">
+                    </p>
+
+                </form>
+
+                <form action="" class="form2">
+                    <p class="p1">
+                        <label for="fEmail">Email</label><br>
+                        <input type="mail" id="email" name="email" placeholder="someone@example"required style="border-radius: 10px;  border-style: hidden; width: 90%; height: 30px; "><br><br>
+                    </p>
+
+                    <p class="p1">
+                        <label for="fpassword">PASSWORD</label><br>
+                        <input type="password" id="" name="" placeholder="Enter your password"required style="border-radius: 10px;  border-style: hidden; width: 90%; height: 30px; "><br><br>
+                    </p>
+                    <p class="p1">
+                        <label for="fpassword">Confirm Password</label><br>
+                        <input type="password" id="" name="" placeholder="******"required style="border-radius: 10px;  border-style: hidden; width: 90%; height: 30px; "><br><br>
+                    </p>
+
+                   
+                </form>
+
+                <a href="#">
+                    <button>
+                        Next
+    
+                    </button>
+                </a>
+
+               
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
